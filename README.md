@@ -3,7 +3,7 @@
 This repository contains a two-part case study on achieving precise color adherence with Google's **Gemini 2.5 Flash Image** (Nano Banana) model. The project includes:
 
 - **The Generation Notebook** (`generation.ipynb`): A practical, interactive tool that demonstrates how to use the color Image-reference method.
-- **The Evaluation Notebook** (`evaluation.ipynb`): A 50-sample quantitative analysis that evaluates the accuracy of the olor Image-reference method compared to color text-only instructions.
+- **The Evaluation Notebook** (`evaluation.ipynb`): A 50-sample quantitative analysis that evaluates the accuracy of the color image-reference method compared to color text-only instructions.
 
 ---
 
