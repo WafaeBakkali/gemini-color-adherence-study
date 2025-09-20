@@ -7,7 +7,13 @@ This repository contains a two-part case study on achieving precise color adhere
 
 ---
 
-## How to Use
+## 📋 Prerequisites
+
+- Python 3.7 or higher
+- Jupyter Notebook or JupyterLab
+- Google Gemini API key
+
+## 🚀 How to Use
 
 ### 1. Requirements
 
@@ -15,6 +21,7 @@ You must have Python 3 and Jupyter installed. First, install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Enable the `ipywidgets` Extension for Jupyter
 
@@ -22,6 +29,7 @@ You will also need to enable the `ipywidgets` extension for Jupyter:
 
 ```bash
 jupyter nbextension enable --py widgetsnbextension
+```
 
 ### 3. Get a Gemini API Key
 
@@ -34,3 +42,31 @@ Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
 
 - **For the evaluation notebook (`evaluation_notebook.ipynb`):**  
   Open and run all cells from top to bottom. The 50-sample loop (Cell 8) will take several minutes.
+
+## 📁 Project Structure
+
+```
+.
+├── generation.ipynb              # Interactive image generation tool
+├── evaluation.ipynb              # Quantitative evaluation notebook
+├── requirements.txt              # Python dependencies
+└── README.md                     # This file
+```
+
+## 🔍 What's Inside
+
+### Generation Notebook
+- Interactive widgets for real-time image generation
+- Color reference image upload functionality
+- Side-by-side comparison of text-only vs. image-reference methods
+- Download capabilities for generated images
+
+### Evaluation Notebook
+- Automated testing across 50 sample cases
+- Quantitative color accuracy metrics
+- Statistical analysis of color adherence
+- Visualization of results
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
