@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.env
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API Keys (Just in case)
+*API_KEY*
+
+# OS Files
+.DS_Store
+
+# Our generated output files
+*.png
+DejaVuSans.ttf

@@ -1,0 +1,9 @@
+google-genai
+pillow
+numpy
+pandas
+scikit-image
+tqdm
+matplotlib
+ipywidgets
+jupyter
